@@ -18,10 +18,10 @@ public enum UserPermission {
 	HOMEWORK_ASSIGN		(4, "homework:assign"),
 
 	/* USERS 10 -> 19 */
-	USERS_READ			(10, "users:read"),
-	USERS_MODIFY		(11, "users:modify"),
-	USERS_DELETE		(12, "users:delete"),
-	USERS_PROMOTE		(13, "users:promote");
+	SCHOOL_CREATE		(10, "school:create"),
+	SCHOOL_READ			(11, "school:read"),
+	SCHOOL_MODIFY		(12, "school:modify"),
+	SCHOOL_DELETE		(13, "school:delete");
 
 	static {
 		final Logger logger = LoggerFactory.getLogger(UserPermission.class);
