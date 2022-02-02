@@ -68,6 +68,20 @@
 			<artifactId>guava</artifactId>
 			<version>31.0.1-jre</version>
 		</dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--
+        TODO: Import Web Units API
+        <dependency>
+            <groupId>de.quantumrange</groupId>
+            <artifactId>web-untis-api</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        -->
 	</dependencies>
 
 	<build>
